@@ -1,0 +1,19 @@
+jwt:
+  secret:'jf9i4jgu83nfl0'
+
+server:
+  port: 8081
+
+spring:
+  datasource:
+    password: 12345
+    url: jdbc:postgresql://localhost:5432/sms
+    username: postgres
+  jpa:
+    show-sql: true
+    hibernate:
+      ddl-auto: update
+
+    properties:
+      hibernate:
+        dialect:org.hibernate.dialect.PostgreSQLDialect

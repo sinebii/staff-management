@@ -13,7 +13,7 @@ import java.util.Date;
 @AllArgsConstructor
 @Data
 @Builder
-public class User implements Serializable {
+public class PortalUser implements Serializable {
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     @Column(nullable = false, updatable = false)
